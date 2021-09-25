@@ -97,17 +97,11 @@
                                     </tr>
 
                                     <!-- More people... -->
-                                    <button type="button" class="btn btn-primary">Primary</button>
-                                    <button type="button" class="btn btn-secondary">Secondary</button>
-                                    <button type="button" class="btn btn-success">Success</button>
-                                    <button type="button" class="btn btn-danger">Danger</button>
-                                    <button type="button" class="btn btn-warning">Warning</button>
-                                    <button type="button" class="btn btn-info">Info</button>
+
                                     <button type="button" class="btn btn-light">Light</button>
 
 
-
-                                    <div class=" w-25 p-3">
+                                    {{-- <div class=" w-25 p-3">
                                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                             <ol class="carousel-indicators">
                                                 <li data-target="#carouselExampleIndicators" data-slide-to="0"
@@ -143,10 +137,13 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                 </tbody>
                             </table>
+                            <div id="app">
+                                <example-two></example-two>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -154,7 +151,11 @@
 
         </div>
     </div>
+
+
 </x-app-layout>
+
+
 <script>
     $('.carousel slide').carousel({
         interval: 10
