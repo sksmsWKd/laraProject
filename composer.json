@@ -8,6 +8,7 @@
         "php": "^7.3|^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "inertiajs/inertia-laravel": "^0.4.4",
         "laravel/framework": "^8.54",
         "laravel/jetstream": "^2.4",
         "laravel/passport": "^10.1",
@@ -18,7 +19,8 @@
         "livewire/livewire": "^2.5",
         "socialiteproviders/github": "^4.1",
         "socialiteproviders/google": "^4.1",
-        "socialiteproviders/kakao": "^4.2"
+        "socialiteproviders/kakao": "^4.2",
+        "tightenco/ziggy": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
