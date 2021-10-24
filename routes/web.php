@@ -3,6 +3,7 @@
 use App\Http\Controllers\GoogleAuthController;
 use App\Http\Controllers\KakaoAuthController;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/asdasd', function () {
+    return Inertia::render('Newpop');
+});
+
 
 Route::get('/', function () {
     return view('welcome');
